@@ -9,7 +9,9 @@
   <script type="text/javascript" src="{% static 'js/jquery.cookie.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/csrf.js' %}"></script>
   {% endblock %}
-  {% block css %}{% endblock %}
+  {% block css %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+  {% endblock %}
 </head>
 <body>
   {% block content %}{% endblock %}

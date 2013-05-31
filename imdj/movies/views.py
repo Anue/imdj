@@ -1,6 +1,7 @@
 #-*- coding: utf-8 -*-
 import json
 
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import (
     HttpResponse, HttpResponseRedirect, HttpResponseForbidden)
 from django.core.urlresolvers import reverse
@@ -12,8 +13,19 @@ from imdj.movies.forms import MovieForm
 
 
 def movie_list(request):
+    movies = Movie.objects.filter(published=True)
+    paginator = Paginator(movies, 5)  # Show 5 movies per page
+    page = request.GET.get('page')
+    try:
+        movie_set = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        movie_set = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        movie_set = paginator.page(paginator.num_pages)
     return render(request, "imdj/movie_list.html", {
-        'movie_set': Movie.objects.filter(published=True)
+        'movie_set': movie_set
     })
 
 
