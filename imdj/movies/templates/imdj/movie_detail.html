@@ -21,18 +21,16 @@
      style="display: none">Like</a>
 </p>
 <p>{{ object.description }}</p>
-<h3>Director</h3>
-<a href="{{ object.director.get_absolute_url }}">{{ object.director.get_full_name }}</a>
-<h3>Cast</h3>
-<ul>
-  {% for actor in object.actors.all %}
-  <li><a href="{{ actor.get_absolute_url }}">{{ actor.get_full_name }}</a></li>
-  {% endfor %}
-</ul>
 {% with object.director as director %}
 {% if director %}
 <h3>Director</h3>
 <a href="{{ director.get_absolute_url }}">{{ director.get_full_name }}</a>
 {% endif %}
 {% endwith %}
+<h3>Cast</h3>
+<ul>
+  {% for actor in object.actors.all %}
+  <li><a href="{{ actor.get_absolute_url }}">{{ actor.get_full_name }}</a></li>
+  {% endfor %}
+</ul>
 {% endblock %}
