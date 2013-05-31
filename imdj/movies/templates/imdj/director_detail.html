@@ -1,1 +1,11 @@
 {% extends "imdj/base_person.html" %}
+
+{% block content %}
+{{ block.super }}
+<h3>Movies:</h3>
+<ul>
+{% for movie in object.movie_set.all %}
+<li><a href="{{ movie.get_absolute_url }}">{{ movie.name }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

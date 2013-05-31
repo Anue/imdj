@@ -80,7 +80,7 @@ class Movie(models.Model):
         return reverse('movies:movie_detail', args=(self.pk, self.slug))
 
     class Meta:
-        ordering = ('likes',)
+        ordering = ('-likes',)
 
 
 def create_slug(sender, instance, *args, **kwargs):
