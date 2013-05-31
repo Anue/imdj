@@ -21,6 +21,8 @@
      style="display: none">Like</a>
 </p>
 <p>{{ object.description }}</p>
+<h3>Director</h3>
+<a href="{{ object.director.get_absolute_url }}">{{ object.director.get_full_name }}</a>
 <h3>Cast</h3>
 <ul>
   {% for actor in object.actors.all %}
