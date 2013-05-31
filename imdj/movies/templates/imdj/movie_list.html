@@ -4,12 +4,28 @@
 
 {% block content %}
 <h2>Movies</h2>
-<ul>
+<ul class="movies">
   {% for movie in movie_set %}
   <li>
-    <a href="{{ movie.get_absolute_url }}">{{ movie.name }}</a>
+    <img src="{{ movie.cover.url }}" alt="{{ movie.name }}" />
+    <a href="{{ movie.get_absolute_url }}">{{ movie.name }}</a><br />
     <p>{{ movie.description|truncatechars:140 }}</p>
   </li>
   {% endfor %}
 </ul>
+<div class="pagination">
+  <span class="step-links">
+    {% if movie_set.has_previous %}
+    <a href="?page={{ movie_set.previous_page_number }}">previous</a>
+    {% endif %}
+
+    <span class="current">
+      Page {{ movie_set.number }} of {{ movie_set.paginator.num_pages }}.
+    </span>
+
+    {% if movie_set.has_next %}
+    <a href="?page={{ movie_set.next_page_number }}">next</a>
+    {% endif %}
+  </span>
+</div>
 {% endblock %}

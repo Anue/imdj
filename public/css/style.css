@@ -1,0 +1,19 @@
+ul.movies li {
+    display: block;
+    height: 350px;
+}
+ul.movies li img {
+    float: left;
+    display: block;
+    padding-right: 10px;
+}
+ul.movies li a {
+    display: block;
+    float: left;
+}
+ul.movies li p {
+    display: block;
+    float: left;
+    margin: 5px;
+    width: 400px;
+}

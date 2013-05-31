@@ -1,11 +1,13 @@
-<!doctype html>
+<!doctype html>{% load static %}
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>{% block title %}IMDJ{% endblock %}</title>
   <meta name="description" content="IMDJ">
   {% block js %}{% endblock %}
-  {% block css %}{% endblock %}
+  {% block css %}
+  	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+  {% endblock %}
 </head>
 <body>
   {% block content %}{% endblock %}
