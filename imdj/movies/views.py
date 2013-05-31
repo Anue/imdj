@@ -13,8 +13,8 @@ def movie_list(request):
     })
 
 
-def _detail(request, template, Model, pk, slug):
-    obj = get_object_or_404(Model, pk=pk, slug=slug)
+def _detail(request, template, Model, pk, slug, extra={}):
+    obj = get_object_or_404(Model, pk=pk, slug=slug, **extra)
     return render(request, template, {
         'object': obj
     })
@@ -29,7 +29,9 @@ def director_detail(request, pk=None, slug=None):
 
 
 def movie_detail(request, pk=None, slug=None):
-    return _detail(request, "imdj/movie_detail.html", Movie, pk, slug)
+    return _detail(request, "imdj/movie_detail.html",
+                   Movie, pk, slug,
+                   extra={'published': True})
 
 
 def suggest(request, template="imdj/suggest.html"):
