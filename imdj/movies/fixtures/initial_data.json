@@ -53,6 +53,7 @@
     "model": "movies.movie", 
     "fields": {
         "name": "The Big Lebowski", 
+        "year": 1998, 
         "created": "2013-05-31T14:22:21.412Z", 
         "cover": "covers/lebo.jpg", 
         "modified": "2013-05-31T14:23:06.690Z", 

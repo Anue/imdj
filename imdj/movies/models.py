@@ -62,6 +62,7 @@ class Director(BasePerson):
 
 class Movie(models.Model):
     name = models.CharField(max_length=64)
+    year = models.PositiveIntegerField()
     description = models.TextField()
     cover = models.ImageField(upload_to='covers')
     created = models.DateTimeField(auto_now_add=True)
