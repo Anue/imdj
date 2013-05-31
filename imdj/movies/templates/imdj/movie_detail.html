@@ -1,5 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>{{ object.name }}</h1>
+<h2>{{ object.name }} ({{ object.year }})</h2>
+<img src="{{ object.cover.url }}" class="cover" alt="cover" />
+<p>{{ object.likes }} Like{{ object.likes|pluralize }} <a href="#">Like</a></p>
+<p>{{ object.description }}</p>
+<h3>Cast</h3>
+<ul>
+  {% for actor in object.actors.all %}
+  <li><a href="{{ actor.get_absolute_url }}">{{ actor.get_full_name }}</a></li>
+  {% endfor %}
+</ul>
+{% with director as object.director %}
+{% if director %}
+<h3>Director</h3>
+<a href="{{ director.get_absolute_url }}">{{ director.get_full_name }}</a>
+{% endif %}
+{% endwith %}
 {% endblock %}

@@ -1,5 +1,7 @@
 #-*- coding: utf-8 -*-
 
+from datetime import date
+
 from django.core.urlresolvers import reverse
 from django.db import models
 from django.db.models.signals import pre_save
@@ -23,6 +25,23 @@ class BasePerson(models.Model):
     def get_full_name(self):
         return u"{0} {1}".format(self.first_name, self.last_name)
 
+    def get_age(self):
+        if self.date_of_birth is None:
+            return None
+        today = date.today()
+        try:
+            birthday = self.date_of_birth.replace(year=today.year)
+        except ValueError:
+            # Birth date is February 29 and it's not on a leap year
+            birthday = self.date_of_birth.replace(
+                year=today.year, day=self.date_of_birth.day - 1)
+        if birthday > today:
+            age = today.year - self.date_of_birth.year - 1
+        else:
+            age = today.year - self.date_of_birth.year
+        if age > 0:
+            return age
+
     class Meta:
         abstract = True
 
@@ -43,6 +62,7 @@ class Director(BasePerson):
 
 class Movie(models.Model):
     name = models.CharField(max_length=64)
+    year = models.PositiveIntegerField()
     description = models.TextField()
     cover = models.ImageField(upload_to='covers')
     created = models.DateTimeField(auto_now_add=True)
