@@ -6,7 +6,7 @@
         "bio": "John Stephen Goodman is an American film, television, and stage actor. Born in St. Louis, Missouri, he is best known for his role as Dan Conner on the television series Roseanne (1988-1997), for which he won a Best Actor Golden Globe award in 1993. Goodman is also noted for appearances in the films of the Coen brothers, with prominent roles in Raising Arizona as an escaped convict, in Barton Fink (1991), as a congenial murderer, in The Big Lebowski, as a volatile bowler and in O Brother Where Art Thou?, as a cultured thief. Additionally, Goodman's voice work has appeared in numerous Disney films, including the voice for \"Sulley\" in Monsters, Inc. Having contributed to more than 50 films, Goodman has also won two American Comedy Awards and hosted Saturday Night Live fourteen times.", 
         "first_name": "John", 
         "last_name": "Goodman", 
-        "photo": "photos/goodman.jpg", 
+        "photo": "photos/goodman_1.jpg", 
         "date_of_birth": "1952-06-20T16:07:29Z", 
         "slug": "john-goodman"
     }
@@ -18,7 +18,7 @@
         "bio": "The son of well-known film and TV star Lloyd Bridges and his long-time wife Dorothy Dean Bridges, Jeffrey Leon Bridges was born on December 4, 1949 in Los Angeles, California, and grew up amid the happening Hollywood scene with big brother Beau Bridges. Both boys popped up, without billing, alongside their mother in the film The Company She Keeps (1951), and appeared on occasion with their famous dad on his popular underwater TV series \"Sea Hunt\" (1958) while growing up. At age 14, Jeff toured with his father in a stage production of \"Anniversary Waltz\". The \"troublesome teen\" years proved just that for Jeff and his parents were compelled at one point to intervene when problems with drugs and marijuana got out of hand.\r\n\r\nHe recovered and began shaping his nascent young adult career appearing on TV as a younger version of his father in the acclaimed TV-movie Silent Night, Lonely Night (1969) (TV), and in the strange Burgess Meredith film The Yin and the Yang of Mr. Go (1970). Following fine notices for his portrayal of a white student caught up in the racially-themed Halls of Anger (1970), his career-maker arrived just a year later when he earned a coming-of-age role in the critically-acclaimed ensemble film The Last Picture Show (1971). The Peter Bogdanovich- directed film made stars out off its young leads (Bridges, Timothy Bottoms, Cybill Shepherd) and Oscar winners out of its older cast (Ben Johnson, Cloris Leachman). The part of Duane Jackson, for which Jeff received his first Oscar-nomination (for \"best supporting actor\"), set the tone for the types of roles Jeff would acquaint himself with his fans -- rambling, reckless, rascally and usually unpredictable).\r\n\r\nOwning a casual carefree handsomeness and armed with a perpetual grin and sly charm, he started immediately on an intriguing 70s sojourn into offbeat filming. Chief among them were his boxer on his way up opposite a declining Stacy Keach in Fat City (1972); his Civil War-era conman in the western Bad Company (1972); his redneck stock car racer in The Last American Hero (1973); his young student anarchist opposite a stellar veteran cast in Eugene O'Neill's The Iceman Cometh (1973); his bank-robbing (also Oscar-nominated) sidekick to Clint Eastwood in Thunderbolt and Lightfoot (1974); his aimless cattle rustler in Rancho Deluxe (1975); his low-level western writer who wants to be a real-life cowboy in Hearts of the West (1975); and his brother of an assassinated President who pursues leads to the crime in Winter Kills (1979). All are simply marvelous characters that should have propelled him to the very top rungs of stardom...but strangely didn't.\r\n\r\nPerhaps it was his trademark ease and naturalistic approach that made him somewhat under appreciated at that time when Hollywood was run by a Dustin Hoffman, Robert De Niro and Al Pacino-like intensity. Neverthless, Jeff continued to be a scene-stealing favorite into the next decade, notably as the video game programmer in the 1982 science-fiction cult classic TRON (1982), and the struggling musician brother vying with brother Beau Bridges over the attentions of sexy singer Michelle Pfeiffer in The Fabulous Baker Boys (1989). Jeff became a third-time Oscar nominee with his highly intriguing (and strangely sexy) portrayal of a blank-faced alien in Starman (1984), and earned even higher regard as the ever-optimistic inventor Preston Tucker in Tucker: The Man and His Dream (1988).\r\n\r\nSince then Jeff has continued to pour on the Bridges magic on film. Few enjoy such an enduring popularity while maintaining equal respect with the critics. The Fisher King (1991), American Heart (1992), Fearless (1993), The Big Lebowski (1998) (now a cult phenomenon) and The Contender (2000) (which gave him a fourth Oscar nomination) are prime examples. More recently he seized the moment as a bald-pated villain as Robert Downey Jr.'s nemesis in Iron Man (2008) and then, at age 60, he capped his rewarding career by winning the elusive Oscar, plus the Golden Globe and Screen Actor Guild awards (among many others), for his down-and-out country singer Bad Blake in Crazy Heart (2009). More recently, Bridges starred in TRON: Legacy (2010), reprising one of his more famous roles, and received another Oscar nomination for Best Actor for his role in the Western remake True Grit (2010).\r\n\r\nJeff has been married since 1977 to non-professional Susan Geston (they met on the set of Rancho Deluxe (1975)). The couple have three daughters, Isabelle (born 1981), Jessica (born 1983), and Hayley (born 1985). He hobbies as a photographer on and off his film sets, and has been known to play around as a cartoonist and pop musician.", 
         "first_name": "Jeff", 
         "last_name": "Bridges", 
-        "photo": "photos/bridges.jpg", 
+        "photo": "photos/bridges_1.jpg", 
         "date_of_birth": "1949-12-04T17:08:40Z", 
         "slug": "jeff-bridges"
     }
@@ -30,9 +30,297 @@
         "bio": "Steve Buscemi was born in Brooklyn, New York, USA. He became interested in acting during his last year of high school. After graduating, he moved to Manhattan to study acting with John Strasberg. He began writing and performing original theatre pieces with fellow actor/writer Mark Boone Junior. This led to his being cast in his first lead role in Parting Glances (1986). Since then, he has worked with many of the top filmmakers in Hollywood, including Quentin Tarantino, Jerry Bruckheimer, and The Coen Brothers. He is a highly respected actor.", 
         "first_name": "Steve", 
         "last_name": "Buscemi", 
-        "photo": "photos/buscemi.jpg", 
+        "photo": "photos/buscemi_1.jpg", 
         "date_of_birth": "1957-12-13T17:09:23Z", 
         "slug": "steve-buscemi"
+    }
+},
+{
+    "pk": 4, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Born in West Covina, California, but raised in New York City, Tim Robbins is the son of former The Highwaymen singer Gil Robbins and actress Mary Robbins. Robbins studied drama at UCLA, where he graduated with honors in 1981. That same year, he formed the Actors' Gang theater group, an experimental", 
+        "first_name": "Tim", 
+        "last_name": "Robbins", 
+        "photo": "photos/tim_robbins.jpg", 
+        "date_of_birth": "1958-10-16T17:45:26Z", 
+        "slug": "tim-robbins"
+    }
+},
+{
+    "pk": 5, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "With an authoritative voice and calm demeanor, this ever popular American actor has grown into one of the most respected figures in modern US cinema. Born in June 1937 in Memphis, Tennessee, the young Freeman attended Los Angeles Community College before serving several years in the US Air Force as a mechanic between 1955 and 1959", 
+        "first_name": "Morgan", 
+        "last_name": "Freeman", 
+        "photo": "photos/morgan_freeman.jpg", 
+        "date_of_birth": "1937-06-01T17:46:16Z", 
+        "slug": "morgan-freeman"
+    }
+},
+{
+    "pk": 6, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "1969-71: Served in the U.S. Army, earning the Vietnam Service Medal and a Bronze Star for valor", 
+        "first_name": "Bob", 
+        "last_name": "Gunton", 
+        "photo": "photos/bob_gunton.jpg", 
+        "date_of_birth": "1945-10-12T18:47:15Z", 
+        "slug": "bob-gunton"
+    }
+},
+{
+    "pk": 7, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Marlon Brando is widely considered the greatest movie actor of all time, rivaled only by the more theatrically oriented Laurence Olivier in terms of esteem. Unlike Olivier, who preferred the stage to the screen, Brando concentrated his talents on movies after bidding the Broadway stage adieu in 1949", 
+        "first_name": "Marlon", 
+        "last_name": "Brando", 
+        "photo": "photos/marlon_brando.jpg", 
+        "date_of_birth": "1924-07-01T18:10:32Z", 
+        "slug": "marlon-brando"
+    }
+},
+{
+    "pk": 8, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Known for his forceful dramatic presentation, Al Pacino is most closely associated with the roles of Michael Corleone in The Godfather trilogy, as well as Tony Montana of the legendary gangster film Scarface. But it was his performance as Frank Slade, a blind, retired Lt. Colonel, in Scent of a Woman that won him the Academy Award for Best Actor in 1993", 
+        "first_name": "Al", 
+        "last_name": "Pacino", 
+        "photo": "photos/al_pacino.jpg", 
+        "date_of_birth": "1940-04-25T19:11:20Z", 
+        "slug": "al-pacino"
+    }
+},
+{
+    "pk": 9, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "A masculine and enigmatic actor whose life and movie career have had more ups and downs than the average rollercoaster and whose selection of roles has arguably derailed him from achieving true superstar status, James Caan is New York born and bred (the son of a butcher). The athletically gifted Caan played football at Michigan State University while studying economics.", 
+        "first_name": "James", 
+        "last_name": "Caan", 
+        "photo": "photos/jamos_caan.jpg", 
+        "date_of_birth": "1949-03-26T19:12:01Z", 
+        "slug": "james-caan"
+    }
+},
+{
+    "pk": 10, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Veteran actor and director Robert Duvall was born on January 5, 1931, in San Diego, CA, the son of a career military officer who later became an admiral. Duvall majored in drama at Principia College (Elsah, IL), then served a two-year hitch in the army after graduating in 1953. He began attending The Neighborhood Playhouse School of the Theatre In New York City", 
+        "first_name": "Robert", 
+        "last_name": "Duvall", 
+        "photo": "photos/robert_duvall.jpg", 
+        "date_of_birth": "1931-01-05T19:15:41Z", 
+        "slug": "robert-duvall"
+    }
+},
+{
+    "pk": 11, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Diane Keaton was a California native who studied Drama at Santa Ana College before dropping out to study at the Neighborhood Playhouse in New York. After appearing in summer stock for several months, she got her first major stage role in the Broadway rock musical \"Hair\". As understudy to the lead, she gained attention by not removing any of her clothing", 
+        "first_name": "Diane", 
+        "last_name": "Keaton", 
+        "photo": "photos/diane_keaton.jpg", 
+        "date_of_birth": "1946-01-05T19:16:08Z", 
+        "slug": "diane-keaton"
+    }
+},
+{
+    "pk": 12, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "John Travolta first gained fame as the swaggering Vinnie Barbarino on the television series Welcome Back, Kotter. In 1977, he parlayed his teeny-bopper fame into a big-screen career with the disco blockbuster Saturday Night Fever. He languished in light dramas and television movies in the 1980s, but started a comeback in 1989 with Look Who's Talking", 
+        "first_name": "John", 
+        "last_name": "Travolta", 
+        "photo": "photos/travolta.jpg", 
+        "date_of_birth": "1954-02-18T19:19:40Z", 
+        "slug": "john-travolta"
+    }
+},
+{
+    "pk": 13, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Samuel L. Jackson usually played bad guys and drug addicts before becoming an action hero, as the character Mitch Henessey, in The Long Kiss Goodnight and in Die Hard: With a Vengeance. From character player to leading man. His performance in Pulp Fiction gave him an Oscar nomination for his character Jules Winnfield", 
+        "first_name": "Samuel L.", 
+        "last_name": "Jackson", 
+        "photo": "photos/jackson.jpg", 
+        "date_of_birth": "1948-12-21T19:20:22Z", 
+        "slug": "samuel-l-jackson"
+    }
+},
+{
+    "pk": 14, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Perhaps the icon of macho movie stars, Clint Eastwood has become a standard in international cinema. Born in San Francisco on May 31, 1930 to factory workers Clinton Eastwood Sr. and Ruth Wood (n\u00e9e Runner), Clint's family moved around Northern California during his childhood before setting in Oregon", 
+        "first_name": "Clint", 
+        "last_name": "Eastwood", 
+        "photo": "photos/clint_eastwood.jpg", 
+        "date_of_birth": "1930-03-31T19:50:38Z", 
+        "slug": "clint-eastwood"
+    }
+},
+{
+    "pk": 15, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "One of Hollywood's finest character / \"Method\" actors, Eli Wallach has been in demand for over 50 years on stage and screen and has worked alongside the biggest stars, including Clark Gable, Clint Eastwood, Steve McQueen, Marilyn Monroe, Yul Brynner, Peter O'Toole, and Al Pacino, to name but a few.", 
+        "first_name": "Eli", 
+        "last_name": "Wallach", 
+        "photo": "photos/eli_wallach.jpg", 
+        "date_of_birth": "1915-12-07T19:51:13Z", 
+        "slug": "eli-wallach"
+    }
+},
+{
+    "pk": 16, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "he 10th Anniversary issue of \"Entertainment Weekly\" crowned Christian Bale as one of the \"Top 8 Most Powerful Cult Figures\" of the past decade, citing his incredible and legendary cult status on the Internet. EW also calls Bale one of the \"Most Creative People in Entertainment\" after his brilliant turn as the psychopathic yuppie serial killer in American Psycho.", 
+        "first_name": "Christian", 
+        "last_name": "Bale", 
+        "photo": "photos/christian_bale.jpg", 
+        "date_of_birth": "1974-01-30T18:54:02Z", 
+        "slug": "christian-bale"
+    }
+},
+{
+    "pk": 17, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "\t\r\nTop 500\r\nHeath Ledger (1979\u20132008)\r\nActor | Director\r\nWhen a young, hunky 20 year old heart-throb Heath Ledger first came to the attention of the public in 1999, it was all too easy to tag him as a \"pretty boy\" and an actor of not much depth. He has spent the past five years trying desperately to sway this image away, but this has indeed been a double-edged sword", 
+        "first_name": "Heath", 
+        "last_name": "Ledger", 
+        "photo": "photos/heath_ledger.jpg", 
+        "date_of_birth": "1979-04-04T19:54:37Z", 
+        "slug": "heath-ledger"
+    }
+},
+{
+    "pk": 18, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Aaron Edward Eckhart (born March 12, 1968) is an American film and stage actor. Born in California, he moved to England at the age of 13, when his father relocated the family. Several years later, he began his acting career by performing in school plays, before moving to Sydney, Australia, for his high school senior year", 
+        "first_name": "Aaron", 
+        "last_name": "Eckhart", 
+        "photo": "photos/aaron_eckhart.jpg", 
+        "date_of_birth": "1968-03-12T19:55:18Z", 
+        "slug": "aaron-eckhart"
+    }
+},
+{
+    "pk": 19, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Martin Henry Balsam was born on November 4, 1919 in the Bronx, New York City. His father was a manufacturer of women's sportswear and he was his first-born child. Martin caught the acting bug in high school where he participated in the drama club. After high school, he continued his interest in acting by attending Manhattan's progressive New School", 
+        "first_name": "Martin", 
+        "last_name": "Balsam", 
+        "photo": "photos/martin_balsam.jpg", 
+        "date_of_birth": "1919-11-04T19:57:57Z", 
+        "slug": "martin-balsam"
+    }
+},
+{
+    "pk": 20, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Typical of busy character actors, Fiedler has made his face (and voice) recognizable to millions. Many would know the bald-pated Fiedler as therapy patient Mr. Peterson on The Bob Newhart Show (1972); others might first recognize him for the 1968 movie and spin-off TV show The Odd Couple (1970), or perhaps even from the Broadway play that preceded them", 
+        "first_name": "John", 
+        "last_name": "Fiedler", 
+        "photo": "photos/john_fieldler.jpg", 
+        "date_of_birth": "1925-02-03T19:58:47Z", 
+        "slug": "john-fiedler"
+    }
+},
+{
+    "pk": 21, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Born on June 7, 1952 in Ballymena, Northern Ireland, UK, Liam Neeson worked as a forklift operator for Guinness, truck driver, assistant architect and an amateur boxer. He had originally sought a career as a teacher by attending St Mary's Teaching College, Newcastle upon Tyne. However, in 1976, Neeson", 
+        "first_name": "Liam", 
+        "last_name": "Neeson", 
+        "photo": "photos/liam_neeson.jpg", 
+        "date_of_birth": "1952-06-07T19:01:44Z", 
+        "slug": "liam-neeson"
+    }
+},
+{
+    "pk": 22, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Ben Kingsley was born in England. His father, Rahimtulla Harji Bhanji, was of Gujrati descent. Ben began to act in stage plays during the 1960s. He soon became a successful stage actor, and also began to have roles in films and TV. His birth name was Krishna Bhanji - but he changed his name to \"Ben Kingsley\" soon after gaining fame as a stage actor", 
+        "first_name": "Ben", 
+        "last_name": "Kingsley", 
+        "photo": "photos/ben_kingsley.jpg", 
+        "date_of_birth": "1943-12-31T19:15:06Z", 
+        "slug": "ben-kingsley"
+    }
+},
+{
+    "pk": 23, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Edward Norton was born on August 18, 1969 to parents Edward, an attorney who works for the National Trust for Historic Preservation and Robin Norton, a former foundation executive and teacher who passed away of brain cancer on March 6, 1997. Edward also has two younger siblings named James and Molly.", 
+        "first_name": "Eduard", 
+        "last_name": "Norton", 
+        "photo": "photos/edward_norton.jpg", 
+        "date_of_birth": "1969-08-18T19:19:24Z", 
+        "slug": "eduard-norton"
+    }
+},
+{
+    "pk": 24, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "An actor and producer known as much for his versatility as he is for his handsome face, Golden Globe-winning actor Brad Pitt's most widely recognized role may be Tyler Durden in Fight Club. But his portrayals of Billy Beane in Moneyball, and Rusty Ryan in the remake of Ocean's Eleven and its sequels, also loom large in his filmography", 
+        "first_name": "Brad", 
+        "last_name": "Pitt", 
+        "photo": "photos/brad-pitt.jpg", 
+        "date_of_birth": "1963-12-18T20:20:02Z", 
+        "slug": "brad-pitt"
+    }
+},
+{
+    "pk": 25, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "\t\r\n99\r\nRobert De Niro\r\nActor | Producer | Director\r\nRobert De Niro, who is thought of as one of the greatest actors of his time, was born in New York City in 1943 to two artists. He was trained at the Stella Adler Conservatory and the American Workshop. He first gained fame for his role in Bang the Drum Slowly, but he gained his reputation as a volatile actor in Mean Streets.", 
+        "first_name": "Robert", 
+        "last_name": "De Niro", 
+        "photo": "photos/robert_de_niro.jpg", 
+        "date_of_birth": "1943-08-17T19:25:28Z", 
+        "slug": "robert-de-niro"
+    }
+},
+{
+    "pk": 26, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Intense is the word for Ray Liotta. He specializes in psychopathic characters who hide behind a cultivated charm. Even in his nice guy roles in Field of Dreams and Operation Dumbo Drop, you get the impression that something is smoldering inside of him. Liotta maintains a steady stream of work, completing multiple projects per year.", 
+        "first_name": "Ray", 
+        "last_name": "Liotta", 
+        "photo": "photos/ray_liotta.jpg", 
+        "date_of_birth": "1954-12-19T20:25:56Z", 
+        "slug": "ray-liotta"
+    }
+},
+{
+    "pk": 27, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Compact Italian-American actor born February 9, 1943, in Newark, NJ, who first broke into entertainment as a child actor and by the mid-50s was starring on the series \"Star Time Kids\". In the mid-'60s he released a record under the stage name of \"Joe Ritchie\" titled \"Little Joe Sure Can Sing\", and was also playing guitar with several bands", 
+        "first_name": "Joe", 
+        "last_name": "Pesci", 
+        "photo": "photos/joe_pesci.jpg", 
+        "date_of_birth": "1943-01-09T19:26:29Z", 
+        "slug": "joe-pesci"
     }
 },
 {
@@ -49,12 +337,129 @@
     }
 },
 {
+    "pk": 2, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "Three-time Oscar nominee Frank Darabont was born in a refugee camp in 1959 in Montbeliard, France, the son of Hungarian parents who had fled Budapest during the failed 1956 Hungarian revolution. Brought to America as an infant, he settled with his family in Los Angeles and attended Hollywood High School.", 
+        "first_name": "Frank", 
+        "last_name": "Darabont", 
+        "photo": "photos/frank_darabont.jpg", 
+        "date_of_birth": "1959-01-29T18:49:10Z", 
+        "prizes": "", 
+        "slug": "frank-darabont"
+    }
+},
+{
+    "pk": 3, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "He was born in 1939 in Detroit, USA, but he grew up in a New York suburb in a creative, supportive Italian-American family. His father, Carmine Coppola, was a composer and musician. His mother, Italia Coppola, had been an actress. Francis Ford Coppola graduated with a degree in drama from Hofstra University", 
+        "first_name": "Francis", 
+        "last_name": "Ford Coppola", 
+        "photo": "photos/francis_coppola_1.jpg", 
+        "date_of_birth": "1939-04-03T19:09:40Z", 
+        "prizes": "", 
+        "slug": "francis-ford-coppola"
+    }
+},
+{
+    "pk": 4, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "n January of 1992, Reservoir Dogs appeared at the Sundance Film Festival, by first-time writer-director Quentin Tarantino. The film garnered critical acclaim and the director became a legend immediately. Two years later, he followed up Dogs success with Pulp Fiction which premiered at the Cannes film festival.", 
+        "first_name": "Quentin", 
+        "last_name": "Tarantino", 
+        "photo": "photos/tarantino.jpg", 
+        "date_of_birth": "1963-03-27T19:19:05Z", 
+        "prizes": "", 
+        "slug": "quentin-tarantino"
+    }
+},
+{
+    "pk": 5, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "\t\r\nTop 5000\r\nSergio Leone (I) (1929\u20131989)\r\nSecond Unit Director or Assistant Director | Writer | Director\r\nSergio Leone was virtually born into the cinema - he was the son of Roberto Roberti (aka Vincenzo Leone), one of Italy's cinema pioneers, and actress Bice Valerian. Leone entered films in his late teens, working as an assistant director to both Italian directors and American directors working in Italy (usually making Biblical and Roman epics", 
+        "first_name": "Sergio", 
+        "last_name": "Leone", 
+        "photo": "photos/sergio_leone.jpg", 
+        "date_of_birth": "1928-01-03T19:49:47Z", 
+        "prizes": "", 
+        "slug": "sergio-leone"
+    }
+},
+{
+    "pk": 6, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "Best known for his cerebral, often non-linear storytelling, acclaimed writer-director Christopher Nolan was born on July 30, 1970 in London, England. Over the course of a decade plus of filmmaking, Nolan has gone from low-budget independent films to working on some of the biggest blockbusters ever. At an early age", 
+        "first_name": "Christopher", 
+        "last_name": "Nolan", 
+        "photo": "photos/christopher_nolan.jpg", 
+        "date_of_birth": "1970-07-30T18:53:10Z", 
+        "prizes": "", 
+        "slug": "christopher-nolan"
+    }
+},
+{
+    "pk": 7, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "Sidney Lumet is a master of cinema, best known for his technical knowledge and his skill at getting first-rate performances from his actors -- and for shooting most of his films in his beloved New York -- he has made over 40 movies, often emotional, but seldom overly sentimental. He often tells intelligent.", 
+        "first_name": "Sidney", 
+        "last_name": "Lumet", 
+        "photo": "photos/sidney_lumet.jpg", 
+        "date_of_birth": "1924-06-25T18:57:17Z", 
+        "prizes": "", 
+        "slug": "sidney-lumet"
+    }
+},
+{
+    "pk": 8, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "Undoubtedly one of the most influential film personalities in the history of film, Steven Spielberg is perhaps Hollywood's best known director and one of the wealthiest filmmakers in the world. Spielberg has countless big-grossing, critically acclaimed credits to his name, as producer, director and writer.", 
+        "first_name": "Steven", 
+        "last_name": "Spielberg", 
+        "photo": "photos/steven_spielberg.jpg", 
+        "date_of_birth": "1946-12-18T20:01:05Z", 
+        "prizes": "", 
+        "slug": "steven-spielberg"
+    }
+},
+{
+    "pk": 9, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "David Fincher was born in 1962 in Denver, Colorado, and was raised in Marin County, California. When he was 18 years old he went to work for John Korty at Korty Films in Mill Valley. He subsequently worked at ILM (Industrial Light and Magic) from 1981-1983. Fincher left ILM to direct TV commercials and music", 
+        "first_name": "David", 
+        "last_name": "Fincher", 
+        "photo": "photos/david_fincher.jpg", 
+        "date_of_birth": "1962-08-28T19:18:38Z", 
+        "prizes": "", 
+        "slug": "david-fincher"
+    }
+},
+{
+    "pk": 10, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "Martin Scorsese was born on November 17, 1942, in New York City, and was raised in the neighborhood of Little Italy, which later provided the inspiration for several of his films. Scorsese earned a B.S. degree in film communications in 1964, followed by an M.A. in the same field in 1966 at New York University's School of Film.", 
+        "first_name": "Martin", 
+        "last_name": "Scorsese", 
+        "photo": "photos/martin_scorsese.jpg", 
+        "date_of_birth": "1942-11-17T19:24:48Z", 
+        "prizes": "", 
+        "slug": "martin-scorsese"
+    }
+},
+{
     "pk": 1, 
     "model": "movies.movie", 
     "fields": {
-        "name": "The Big Lebowski", 
-        "year": 1998, 
+        "description": "\"Dude\" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.", 
         "created": "2013-05-31T14:22:21.412Z", 
+        "published": true, 
         "cover": "covers/lebo.jpg", 
         "modified": "2013-05-31T14:23:06.690Z", 
         "director": 1, 
@@ -64,9 +469,253 @@
             3
         ], 
         "likes": 0, 
-        "published": true, 
+        "year": 1998, 
         "slug": "the-big-lebowski", 
-        "description": "\"Dude\" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it."
+        "name": "The Big Lebowski"
+    }
+},
+{
+    "pk": 2, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.", 
+        "created": "2013-05-31T15:51:12.999Z", 
+        "published": true, 
+        "cover": "covers/redemption.jpg", 
+        "modified": "2013-05-31T15:51:12.999Z", 
+        "director": 2, 
+        "actors": [
+            4, 
+            5, 
+            6
+        ], 
+        "likes": 0, 
+        "year": 1994, 
+        "slug": "the-shawshank-redemption", 
+        "name": "The Shawshank Redemption"
+    }
+},
+{
+    "pk": 3, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.", 
+        "created": "2013-05-31T16:13:57.693Z", 
+        "published": true, 
+        "cover": "covers/the_godfather.jpg", 
+        "modified": "2013-05-31T16:13:57.693Z", 
+        "director": 3, 
+        "actors": [
+            7, 
+            8, 
+            9
+        ], 
+        "likes": 0, 
+        "year": 1972, 
+        "slug": "the-godfather", 
+        "name": "The Godfather"
+    }
+},
+{
+    "pk": 4, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.", 
+        "created": "2013-05-31T16:17:44.708Z", 
+        "published": false, 
+        "cover": "covers/godfather_2.jpg", 
+        "modified": "2013-05-31T16:17:44.708Z", 
+        "director": 3, 
+        "actors": [
+            8, 
+            10, 
+            11
+        ], 
+        "likes": 0, 
+        "year": 1974, 
+        "slug": "the-godfather-part-ii", 
+        "name": "The Godfather: Part II"
+    }
+},
+{
+    "pk": 5, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption", 
+        "created": "2013-05-31T16:21:25.576Z", 
+        "published": true, 
+        "cover": "covers/pulp_fiction.jpg", 
+        "modified": "2013-05-31T16:21:25.576Z", 
+        "director": 4, 
+        "actors": [
+            12, 
+            13
+        ], 
+        "likes": 0, 
+        "year": 1994, 
+        "slug": "pulp-fiction", 
+        "name": "Pulp Fiction"
+    }
+},
+{
+    "pk": 6, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.", 
+        "created": "2013-05-31T16:52:06.205Z", 
+        "published": true, 
+        "cover": "covers/good_bad_ugly.jpg", 
+        "modified": "2013-05-31T16:52:06.205Z", 
+        "director": 5, 
+        "actors": [
+            14, 
+            15
+        ], 
+        "likes": 0, 
+        "year": 1966, 
+        "slug": "the-good-the-bad-and-the-ugly", 
+        "name": "The Good, the Bad and the Ugly"
+    }
+},
+{
+    "pk": 7, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.", 
+        "created": "2013-05-31T16:56:02.159Z", 
+        "published": false, 
+        "cover": "covers/dark_night.jpg", 
+        "modified": "2013-05-31T16:56:02.159Z", 
+        "director": 6, 
+        "actors": [
+            16, 
+            17, 
+            18
+        ], 
+        "likes": 0, 
+        "year": 2008, 
+        "slug": "the-dark-knight", 
+        "name": "The Dark Knight"
+    }
+},
+{
+    "pk": 8, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed in court.\r\n", 
+        "created": "2013-05-31T16:59:25.533Z", 
+        "published": false, 
+        "cover": "covers/12_angry_men.jpg", 
+        "modified": "2013-05-31T16:59:25.533Z", 
+        "director": 7, 
+        "actors": [
+            19, 
+            20
+        ], 
+        "likes": 0, 
+        "year": 1957, 
+        "slug": "12-angry-men", 
+        "name": "12 Angry Men"
+    }
+},
+{
+    "pk": 9, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "In Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis", 
+        "created": "2013-05-31T17:16:37.890Z", 
+        "published": true, 
+        "cover": "covers/schindler_list.jpg", 
+        "modified": "2013-05-31T17:17:02.889Z", 
+        "director": 8, 
+        "actors": [
+            21, 
+            22
+        ], 
+        "likes": 0, 
+        "year": 1993, 
+        "slug": "schindlers-list", 
+        "name": "Schindler's List"
+    }
+},
+{
+    "pk": 10, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much, much more...", 
+        "created": "2013-05-31T17:20:38.642Z", 
+        "published": true, 
+        "cover": "covers/fight_club.jpg", 
+        "modified": "2013-05-31T17:20:38.642Z", 
+        "director": 9, 
+        "actors": [
+            23, 
+            24
+        ], 
+        "likes": 0, 
+        "year": 1999, 
+        "slug": "fight-club", 
+        "name": "Fight Club"
+    }
+},
+{
+    "pk": 11, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "Henry Hill and his friends work their way up through the mob hierarchy.", 
+        "created": "2013-05-31T17:27:05.120Z", 
+        "published": true, 
+        "cover": "covers/goodfellas.jpg", 
+        "modified": "2013-05-31T17:27:05.120Z", 
+        "director": 10, 
+        "actors": [
+            25, 
+            26, 
+            27
+        ], 
+        "likes": 0, 
+        "year": 1990, 
+        "slug": "goodfellas", 
+        "name": "Goodfellas"
+    }
+},
+{
+    "pk": 12, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.", 
+        "created": "2013-05-31T17:28:32.882Z", 
+        "published": true, 
+        "cover": "covers/seven.jpg", 
+        "modified": "2013-05-31T17:28:32.882Z", 
+        "director": 9, 
+        "actors": [
+            5, 
+            24
+        ], 
+        "likes": 0, 
+        "year": 1995, 
+        "slug": "seven", 
+        "name": "Seven"
+    }
+},
+{
+    "pk": 13, 
+    "model": "movies.movie", 
+    "fields": {
+        "description": "A mentally unstable Vietnam war veteran works as a nighttime taxi driver in New York City where the perceived decadence and sleaze feeds his urge to violently lash out, attempting to save a teenage prostitute in the process", 
+        "created": "2013-05-31T17:30:19.315Z", 
+        "published": true, 
+        "cover": "covers/taxi_driver.jpg", 
+        "modified": "2013-05-31T17:30:19.315Z", 
+        "director": 10, 
+        "actors": [
+            25
+        ], 
+        "likes": 0, 
+        "year": 1976, 
+        "slug": "taxi-driver", 
+        "name": "Taxi Driver"
     }
 }
 ]

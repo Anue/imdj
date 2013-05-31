@@ -57,7 +57,7 @@ class Director(BasePerson):
     prizes = models.TextField(blank=True)
 
     def get_absolute_url(self):
-        return reverse('director_detail', args=(self.pk, self.slug))
+        return reverse('movies:director_detail', args=(self.pk, self.slug))
 
 
 class Movie(models.Model):
