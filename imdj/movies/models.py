@@ -30,7 +30,7 @@ class BasePerson(models.Model):
 class Actor(BasePerson):
 
     def get_absolute_url(self):
-        return reverse('actor_detail', args=(self.pk, self.slug))
+        return reverse('movies:actor_detail', args=(self.pk, self.slug))
 
 
 class Director(BasePerson):
@@ -44,6 +44,7 @@ class Director(BasePerson):
 class Movie(models.Model):
     name = models.CharField(max_length=64)
     description = models.TextField()
+    cover = models.ImageField(upload_to='covers')
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
     actors = models.ManyToManyField(Actor, related_name='movies')
@@ -56,7 +57,7 @@ class Movie(models.Model):
         return self.name
 
     def get_absolute_url(self):
-        return reverse('movie_list', args=(self.pk, self.slug))
+        return reverse('movies:movie_detail', args=(self.pk, self.slug))
 
     class Meta:
         ordering = ('likes',)

@@ -1,0 +1,71 @@
+[
+{
+    "pk": 1, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "John Stephen Goodman is an American film, television, and stage actor. Born in St. Louis, Missouri, he is best known for his role as Dan Conner on the television series Roseanne (1988-1997), for which he won a Best Actor Golden Globe award in 1993. Goodman is also noted for appearances in the films of the Coen brothers, with prominent roles in Raising Arizona as an escaped convict, in Barton Fink (1991), as a congenial murderer, in The Big Lebowski, as a volatile bowler and in O Brother Where Art Thou?, as a cultured thief. Additionally, Goodman's voice work has appeared in numerous Disney films, including the voice for \"Sulley\" in Monsters, Inc. Having contributed to more than 50 films, Goodman has also won two American Comedy Awards and hosted Saturday Night Live fourteen times.", 
+        "first_name": "John", 
+        "last_name": "Goodman", 
+        "photo": "photos/goodman.jpg", 
+        "date_of_birth": "1952-06-20T16:07:29Z", 
+        "slug": "john-goodman"
+    }
+},
+{
+    "pk": 2, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "The son of well-known film and TV star Lloyd Bridges and his long-time wife Dorothy Dean Bridges, Jeffrey Leon Bridges was born on December 4, 1949 in Los Angeles, California, and grew up amid the happening Hollywood scene with big brother Beau Bridges. Both boys popped up, without billing, alongside their mother in the film The Company She Keeps (1951), and appeared on occasion with their famous dad on his popular underwater TV series \"Sea Hunt\" (1958) while growing up. At age 14, Jeff toured with his father in a stage production of \"Anniversary Waltz\". The \"troublesome teen\" years proved just that for Jeff and his parents were compelled at one point to intervene when problems with drugs and marijuana got out of hand.\r\n\r\nHe recovered and began shaping his nascent young adult career appearing on TV as a younger version of his father in the acclaimed TV-movie Silent Night, Lonely Night (1969) (TV), and in the strange Burgess Meredith film The Yin and the Yang of Mr. Go (1970). Following fine notices for his portrayal of a white student caught up in the racially-themed Halls of Anger (1970), his career-maker arrived just a year later when he earned a coming-of-age role in the critically-acclaimed ensemble film The Last Picture Show (1971). The Peter Bogdanovich- directed film made stars out off its young leads (Bridges, Timothy Bottoms, Cybill Shepherd) and Oscar winners out of its older cast (Ben Johnson, Cloris Leachman). The part of Duane Jackson, for which Jeff received his first Oscar-nomination (for \"best supporting actor\"), set the tone for the types of roles Jeff would acquaint himself with his fans -- rambling, reckless, rascally and usually unpredictable).\r\n\r\nOwning a casual carefree handsomeness and armed with a perpetual grin and sly charm, he started immediately on an intriguing 70s sojourn into offbeat filming. Chief among them were his boxer on his way up opposite a declining Stacy Keach in Fat City (1972); his Civil War-era conman in the western Bad Company (1972); his redneck stock car racer in The Last American Hero (1973); his young student anarchist opposite a stellar veteran cast in Eugene O'Neill's The Iceman Cometh (1973); his bank-robbing (also Oscar-nominated) sidekick to Clint Eastwood in Thunderbolt and Lightfoot (1974); his aimless cattle rustler in Rancho Deluxe (1975); his low-level western writer who wants to be a real-life cowboy in Hearts of the West (1975); and his brother of an assassinated President who pursues leads to the crime in Winter Kills (1979). All are simply marvelous characters that should have propelled him to the very top rungs of stardom...but strangely didn't.\r\n\r\nPerhaps it was his trademark ease and naturalistic approach that made him somewhat under appreciated at that time when Hollywood was run by a Dustin Hoffman, Robert De Niro and Al Pacino-like intensity. Neverthless, Jeff continued to be a scene-stealing favorite into the next decade, notably as the video game programmer in the 1982 science-fiction cult classic TRON (1982), and the struggling musician brother vying with brother Beau Bridges over the attentions of sexy singer Michelle Pfeiffer in The Fabulous Baker Boys (1989). Jeff became a third-time Oscar nominee with his highly intriguing (and strangely sexy) portrayal of a blank-faced alien in Starman (1984), and earned even higher regard as the ever-optimistic inventor Preston Tucker in Tucker: The Man and His Dream (1988).\r\n\r\nSince then Jeff has continued to pour on the Bridges magic on film. Few enjoy such an enduring popularity while maintaining equal respect with the critics. The Fisher King (1991), American Heart (1992), Fearless (1993), The Big Lebowski (1998) (now a cult phenomenon) and The Contender (2000) (which gave him a fourth Oscar nomination) are prime examples. More recently he seized the moment as a bald-pated villain as Robert Downey Jr.'s nemesis in Iron Man (2008) and then, at age 60, he capped his rewarding career by winning the elusive Oscar, plus the Golden Globe and Screen Actor Guild awards (among many others), for his down-and-out country singer Bad Blake in Crazy Heart (2009). More recently, Bridges starred in TRON: Legacy (2010), reprising one of his more famous roles, and received another Oscar nomination for Best Actor for his role in the Western remake True Grit (2010).\r\n\r\nJeff has been married since 1977 to non-professional Susan Geston (they met on the set of Rancho Deluxe (1975)). The couple have three daughters, Isabelle (born 1981), Jessica (born 1983), and Hayley (born 1985). He hobbies as a photographer on and off his film sets, and has been known to play around as a cartoonist and pop musician.", 
+        "first_name": "Jeff", 
+        "last_name": "Bridges", 
+        "photo": "photos/bridges.jpg", 
+        "date_of_birth": "1949-12-04T17:08:40Z", 
+        "slug": "jeff-bridges"
+    }
+},
+{
+    "pk": 3, 
+    "model": "movies.actor", 
+    "fields": {
+        "bio": "Steve Buscemi was born in Brooklyn, New York, USA. He became interested in acting during his last year of high school. After graduating, he moved to Manhattan to study acting with John Strasberg. He began writing and performing original theatre pieces with fellow actor/writer Mark Boone Junior. This led to his being cast in his first lead role in Parting Glances (1986). Since then, he has worked with many of the top filmmakers in Hollywood, including Quentin Tarantino, Jerry Bruckheimer, and The Coen Brothers. He is a highly respected actor.", 
+        "first_name": "Steve", 
+        "last_name": "Buscemi", 
+        "photo": "photos/buscemi.jpg", 
+        "date_of_birth": "1957-12-13T17:09:23Z", 
+        "slug": "steve-buscemi"
+    }
+},
+{
+    "pk": 1, 
+    "model": "movies.director", 
+    "fields": {
+        "bio": "Frequently casts Steve Buscemi (6 times), spouse Frances McDormand (5 times), Jon Polito (5 times), John Goodman (5 times), John Turturro (4 times), George Clooney (3 times), Michael Badalucco (3 times), Charles Durning (twice), M. Emmet Walsh (twice), Peter Stormare (twice), Richard Jenkins (twice), John Mahoney (twice), Tony Shalhoub (twice), Stephen Root (3 times), and Billy Bob Thornton (twice).\r\n\r\nReferences to the films of Stanley Kubrick\r\n\r\nFilms often center around or include a botched crime\r\n\r\nThe Coens frequently focus on round spinning objects: hat in Miller's Crossing (1990), bowling balls and tumble-weed in The Big Lebowski (1998), hair pomade tins in O Brother, Where Art Thou? (2000), UFO and a car wheel in The Man Who Wasn't There (2001) ...or the fans in Blood Simple. (1984).\r\n\r\nOften creates at least one lengthy sequence in most of his films where only music plays as a major event unfolds, i.e Raising Arizona (1987) when Nicolas Cage is being chased after robbing a store. Also sequences in Miller's Crossing (1990), The Big Lebowski (1998), The Man Who Wasn't There (2001), and Fargo (1996).\r\n\r\nOften has a certain phrase that is repeated throughout the movie or a specific scene.\r\n\r\nTypically makes movies set during a specific time period, often in the near-past (Fargo (1996) takes place in 1987, The Big Lebowski (1998) in 1991, and No Country for Old Men (2007) in 1980).\r\n\r\nFilms usually contain at least one fast-talking character\r\n\r\nFilms often include characters or places with the stereotypes of the regions they take place in (the Mid-Western accents and snow-covered landscapes for Fargo (1996), the Southwestern accents and barren deserts of Arizona for Raising Arizona (1987), the Southern accents and dust-bowl landscape for_O Brother, Where Art Thou? (2000)_, Los Angeles accents and life-style in The Big Lebowski (1998), and the accents and cramped environments of Los Angeles in Barton Fink (1991)).\r\n\r\nHis movies often have a victim of a crime who is completely unsympathetic (Fargo, Lebowski, Raising Arizona)\r\n\r\nMen often explicitly suffer bizarre and bloody deaths or indignities in their films, but women are typically harmed off-screen (Fargo, The Big Lebowski, No Country for Old Men, Barton Fink).\r\n\r\nOpening shot with the landscape of the area in which the movie is set and a voiceover (e.g. No Country for Old Men (2007), The Big Lebowski (1998), O Brother, Where Art Thou? (2000)).\r\n\r\nUse of phones ringing for long periods of time before a character answers of at all. Tom Reagan in Millers Crossing, The Dude in The Big Lebowski, Anton Chigurh in No Country For Old Men.\r\n\r\nElaborate, self-conscious homages to past films and filmmaking styles\r\n\r\nHighly exaggerated performances, particularly with eyes and voices\r\n\r\nOften begins movies with a voiceover by a southern character (see: Blood Simple, The Hudsucker Proxy, The Big Lebowski, No Country for Old Men).\r\n\r\nFilms frequently contain adulterous wives or girlfriends. See: \"Blood Simple\", \"Miller's Crossing\", \"Barton Fink\", \"The Man Who Wasn't There\", \"Intolerable Cruelty\", \"Burn After Reading\", \"A Serious Man\".\r\n\r\nHighly keen soundtracks (always handled by Skip Lievsay), in which mundane sounds are made to seem eerie or used for absurdist effect.\r\n\r\nSeveral Coen Brothers films feature a mysterious, purely evil antagonist, who are typically laconic, physically imposing and extremely violent\r\n\r\nOften has at least one male character with dated, unusual, or goofy hair\r\n\r\nMany of his films feature an amoral but intelligent character who works in business or law\r\n\r\nHis protagonists are often ordinary people who find themselves caught up in extraordinary situations\r\n\r\nAlmost all of his films involve a pivotal scene that takes place in a hotel room\r\n\r\nSeveral films contain scenes of graphic violence\r\n\r\nDry humor", 
+        "first_name": "Joel", 
+        "last_name": "Coen", 
+        "photo": "photos/coen.jpg", 
+        "date_of_birth": "1954-11-29T17:11:41Z", 
+        "prizes": "", 
+        "slug": "joel-coen"
+    }
+},
+{
+    "pk": 1, 
+    "model": "movies.movie", 
+    "fields": {
+        "name": "The Big Lebowski", 
+        "created": "2013-05-31T14:22:21.412Z", 
+        "cover": "covers/lebo.jpg", 
+        "modified": "2013-05-31T14:23:06.690Z", 
+        "director": 1, 
+        "actors": [
+            1, 
+            2, 
+            3
+        ], 
+        "likes": 0, 
+        "published": true, 
+        "slug": "the-big-lebowski", 
+        "description": "\"Dude\" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it."
+    }
+}
+]

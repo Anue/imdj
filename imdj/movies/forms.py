@@ -10,4 +10,4 @@ __all__ = ['MovieForm']
 class MovieForm(forms.ModelForm):
     class Meta:
         model = Movie
-        exclude = ('published', 'slug')
+        exclude = ('published', 'slug', 'likes')

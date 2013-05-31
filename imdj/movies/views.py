@@ -8,8 +8,8 @@ from imdj.movies.forms import MovieForm
 
 
 def movie_list(request):
-    render(request, "imdj/movie_list.html", {
-        'movie_set': Movie.objects.all()
+    return render(request, "imdj/movie_list.html", {
+        'movie_set': Movie.objects.filter(published=True)
     })
 
 
@@ -28,8 +28,12 @@ def director_detail(request, pk=None, slug=None):
     return _detail(request, "imdj/director_detail.html", Director, pk, slug)
 
 
+def movie_detail(request, pk=None, slug=None):
+    return _detail(request, "imdj/movie_detail.html", Movie, pk, slug)
+
+
 def suggest(request, template="imdj/suggest.html"):
-    form = MovieForm(request.Post or None)
+    form = MovieForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         form.save()
         return HttpResponseRedirect(reverse('movies:movie_list'))
