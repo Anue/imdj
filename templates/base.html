@@ -1,10 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en">{% load static from staticfiles %}
 <head>
   <meta charset="utf-8">
   <title>{% block title %}IMDJ{% endblock %}</title>
   <meta name="description" content="IMDJ">
-  {% block js %}{% endblock %}
+  {% block js %}
+  <script type="text/javascript" src="{% static 'js/jquery-2.0.0.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.cookie.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/csrf.js' %}"></script>
+  {% endblock %}
   {% block css %}{% endblock %}
 </head>
 <body>

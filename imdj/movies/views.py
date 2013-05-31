@@ -1,8 +1,12 @@
 #-*- coding: utf-8 -*-
+import json
 
-from django.http import HttpResponseRedirect
+from django.http import (
+    HttpResponse, HttpResponseRedirect, HttpResponseForbidden)
 from django.core.urlresolvers import reverse
 from django.shortcuts import get_object_or_404, render
+from django.views.decorators.http import require_POST
+
 from imdj.movies.models import Actor, Director, Movie
 from imdj.movies.forms import MovieForm
 
@@ -42,3 +46,19 @@ def suggest(request, template="imdj/suggest.html"):
     return render(request, template, {
         'form': form
     })
+
+
+@require_POST
+def ajax_like(request):
+    movie = get_object_or_404(Movie, pk=request.POST.get('pk', None))
+    key = 'liked_movie_{0}'.format(movie.pk)
+    if request.session.get(key):
+        return HttpResponseForbidden()
+    movie.likes += 1
+    movie.save()
+    response = HttpResponse(json.dumps({
+        'success': True,
+        'count': movie.likes
+    }), mimetype="application/json")
+    response.set_cookie(key, True)
+    return response

@@ -1,9 +1,25 @@
 {% extends "base.html" %}
 
+{% load static from staticfiles %}
+
+{% block js %}
+{{ block.super }}
+<script type="text/javascript" src="{% static 'js/likes.js' %}"></script>
+<script type="text/javascript">
+    jQuery(function($) {
+        $("#like-movie").likeBtn();
+    });
+</script>
+{% endblock %}
+
 {% block content %}
 <h2>{{ object.name }} ({{ object.year }})</h2>
 <img src="{{ object.cover.url }}" class="cover" alt="cover" />
-<p>{{ object.likes }} Like{{ object.likes|pluralize }} <a href="#">Like</a></p>
+<p>
+  <a href="{% url 'movies:ajax_like' %}" id="like-movie"
+     data-count="{{ object.likes }}" data-pk="{{ object.pk }}"
+     style="display: none">Like</a>
+</p>
 <p>{{ object.description }}</p>
 <h3>Cast</h3>
 <ul>
