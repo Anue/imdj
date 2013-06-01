@@ -29,7 +29,9 @@ def movie_list(request):
     })
 
 
-def _detail(request, template, Model, pk, slug, extra={}):
+def _detail(request, template, Model, pk, slug, extra=None):
+    if extra is None:
+        extra = {}
     obj = get_object_or_404(Model, pk=pk, slug=slug, **extra)
     return render(request, template, {
         'object': obj
