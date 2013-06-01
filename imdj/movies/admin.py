@@ -11,9 +11,10 @@ class ActorAdmin(admin.ModelAdmin):
 class DirectorAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("first_name", "last_name")}
 
+
 class MovieAdmin(admin.ModelAdmin):
-    prepopulated_fields = {"slug": ("name",)
-}
+    prepopulated_fields = {"slug": ("name",)}
+
 
 admin.site.register(Actor, ActorAdmin)
 admin.site.register(Director, DirectorAdmin)
